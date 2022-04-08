@@ -1,0 +1,213 @@
+
+html {
+	background-image: url("/img/bubbles-1836457_960_720.jpg");
+	background-size: cover;
+	background-repeat: no-repeat; 
+	overflow: all;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+  z-index: 1;
+
+}
+body{
+	width: 80%;
+}
+header {
+	border: solid 2px black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  background-color: #24ffff;
+}
+main {
+	min-height: calc(100vh - 169px);
+	border: solid 2px;
+  background-color: #00d1d1;
+}
+.main-contact{
+  justify-content: center;
+  display: flex;
+  z-index: -1;
+  background: none;
+}
+input[type=text]{
+  width: 200px;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #24ffff;
+}
+footer img{
+    margin: 0;
+    width: 4%;
+}
+footer p{
+    margin: 0;
+    color: firebrick;
+}
+table, th, td {
+  border:1px solid black;
+}
+#formulier {
+width: 20%;
+font-family: kale dikke;
+} 
+#logo {
+	width: 30%;	
+	justify-content: flex-start;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 50%;
+  height: 70%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}   
+
+#contactpaginaknop {
+	border-radius: 50%;
+	font-size: 16px;
+	padding: 16px;
+	justify-content: flex-end;
+	margin-right: 400px;
+}                         
+
+.card {
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    max-width: 100%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 10px;
+    background-image: src("/img/bubbles-png-transparent-image-pngpix-4.png");
+   background-color: #8fe3d5;
+   width: 90%;
+   font-family: kale dikke;
+}
+
+.card-group>.card {
+    margin-bottom: .75rem;
+}
+.card-group{
+	position: relative;
+    padding: 1rem;
+    margin: 1rem -.75rem 0;
+    border: solid #dee2e6;
+    border-width: 1px 0 0;
+    display: flex;
+    height: auto;
+}
+.card-body{
+	text-shadow: 2px, 2px, black;
+
+}
+.card img {
+	height: 150px;
+	object-fit: cover;
+}
+.module-border-wrap {
+	margin: auto;
+  max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(#00ffd5, #00aeff, #001aff);
+  padding: 3px;
+}
+
+.module {
+  background: #668e94;
+  color: white;
+  padding: 2rem;
+}
+#naam{
+  width: 100%;
+}
+#formulier{
+  border: none;
+}
+@keyframes test {
+  from {wi}
+}
+#welkom {
+  justify-content: center;
+  display: flex;
+  font-family: Bubble Man;
+  height: 20%;
+}
+#godsamme{
+  display: flex;
+  flex-direction: row;
+  font-family: kale dikke;
+}
+a {
+  justify-content: flex-start;
+  height: 40px;
+  display: block1;
+  }
+
+  #logo{
+    width: 256px;
+    height: auto;
+  }
+  #titel {
+    display: flex;
+     width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+#tekst {
+    margin-top: 130px;
+    height: auto;
+    font-size: 19px;
+    font-family: kale dikke;
+} 
+#foto { 
+    position: absolute;
+    right: 151px;
+    width: 30%;
+    margin-bottom: 10px;
+}
